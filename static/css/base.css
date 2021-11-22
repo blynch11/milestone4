@@ -3,9 +3,11 @@ html {
 }
 
 body{
-    background-image: url('/media/crossfit-g48240eb5f_1920.jpg') no-repeat center center fixed;
+    background-image: url("/media/crossfit-g48240eb5f_1920.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 
 .user-account-btn {
@@ -13,6 +15,27 @@ body{
     text-transform: capitalize;
 }
 
+.welcome-card{
+    margin: 0px auto;
+    width: 80%;
+}
+
+.welcome-card-title{
+    font-family: 'Teko', sans-serif;
+    text-transform: capitalize;
+}
+
+
+.welcome-card-text{
+    font-family:  'Six Caps', sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+
+
+
+/*--- weights & accessories page ---*/
 
 .overlay{
     height: 100%;
@@ -22,4 +45,9 @@ body{
     z-index: -1;
     position: fixed;
     background: white;
+}
+
+
+.weights-container{
+    margin-top: 100px;
 }

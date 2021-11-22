@@ -16,6 +16,9 @@
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Six+Caps&family=Teko:wght@500&display=swap" rel="stylesheet">
     {% endblock %}
 
     {% block extra_css %}
@@ -87,13 +90,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Personal Training  <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="{#}">Personal Training  <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Nutrition & Protein</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Weights & Accessories</a>
+            <a class="nav-link" href="{% url 'products' %}">Weights & Accessories</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Gym Gear</a>
@@ -116,7 +119,19 @@
     {% block postloadjs %}
     {% endblock %}
 
-    <h1>Welcome to Power Fitness, a tailored fitness program to help you Power to your fitness goals!</h1>
+  
+
+    <div class="card text-center welcome-card">
+      <div class="card-header">
+      
+      <div class="card-body">
+        <h5 class="card-title welcome-card-title">Welcome to Power Fitness!</h5>
+        <p class="card-text welcome-card-text">Power Fitness is your one stop shop for achieving your fitness goals. We specialize in
+          tailored personal training plans, nutrition plans and 1 to 1 coaching with our fitness experts. We also offer 
+          a unique range of weights, kettle bells, nutritinal products and stylish gym gear.</p>
+        <a href="#" class="btn btn-primary">Meet our Fitness experts</a>
+      </div>
+    </div>
     
   </body>
 </html>
