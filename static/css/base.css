@@ -10,6 +10,10 @@ body{
     color: black;
 }
 
+.power-logo{
+    color: red;
+}
+
 .nav-link{
     font-family:'Teko', sans-serif;
     text-transform: capitalize;
