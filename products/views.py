@@ -39,3 +39,9 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+def pt(request):
+    """ personal trainer view"""
+
+    return render(request, 'products/pt.html')
