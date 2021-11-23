@@ -63,3 +63,26 @@ body{
 .weights-container{
     margin-top: 100px;
 }
+
+/*--- Personal Trainer page ---*/
+
+
+.bio-row{
+    margin: 200px auto
+}
+
+
+.bio-pic{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    padding: -50px;
+    margin-top: 40px;
+}
+
+.bio-spiel{
+    font-family:  'Six Caps', sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-top: 40px;
+}
