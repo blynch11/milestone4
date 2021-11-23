@@ -45,3 +45,15 @@ def pt(request):
     """ personal trainer view"""
 
     return render(request, 'products/pt.html')
+
+
+def nutrition(request):
+    """ Nutrition view"""
+
+    return render(request, 'products/nutrition.html')
+
+
+def gymgear(request):
+    """ Gym Gear view"""
+
+    return render(request, 'products/gymgear.html')
