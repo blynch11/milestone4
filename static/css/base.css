@@ -10,13 +10,21 @@ body{
     color: black;
 }
 
+.nav-link{
+    font-family:'Teko', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin:  auto 20px;
+    font-size: large;
+}
+
 .user-account-btn {
     color: red;
     text-transform: capitalize;
 }
 
 .welcome-card{
-    margin: 0px auto;
+    margin: 180px auto;
     width: 80%;
 }
 
