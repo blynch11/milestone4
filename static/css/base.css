@@ -66,23 +66,48 @@ body{
 
 /*--- Personal Trainer page ---*/
 
+.pt-body{
+    font-family: 'Teko', sans-serif;
+    background-color: grey;
+}
+
 
 .bio-row{
-    margin: 200px auto
+    margin: 150px auto
+}
+
+.bio-col{
+    padding-top: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.bio-images {
+    vertical-align: middle;
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
 }
 
 
-.bio-pic{
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    padding: -50px;
-    margin-top: 40px;
+
+.container-bio .bio-text {
+    
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
 }
 
-.bio-spiel{
-    font-family:  'Six Caps', sans-serif;
-    letter-spacing: 1px;
-    font-size: 30px;
-    margin-top: 40px;
-}
+
+         
+    
+  
+
+  
