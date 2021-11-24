@@ -2,6 +2,14 @@ html {
     height: 100%;
 }
 
+.fa-shopping-bag{
+    color: red;
+}
+
+.fa-user{
+    color: red;
+}
+
 body{
     background-image: url("/media/crossfit-g48240eb5f_1920.jpg");
     background-repeat: no-repeat;
@@ -44,6 +52,9 @@ body{
     font-size: 30px;
 }
 
+.meet-button{
+    font-family: 'Teko', sans-serif;
+}
 
 
 
@@ -68,7 +79,7 @@ body{
 
 .pt-body{
     font-family: 'Teko', sans-serif;
-    background-color: grey;
+    
 }
 
 
@@ -85,7 +96,7 @@ body{
 
 .bio-images {
     vertical-align: middle;
-    width: 250px;
+    width: 255px;
     height: 300px;
     border-radius: 2%;
 }
@@ -107,7 +118,21 @@ body{
 
 
          
-    
+/*--- Basket---*/
   
 
-  
+  .basket-contents{
+      margin: 200px auto;
+      background-color: whitesmoke;
+      max-width: 400px;
+      border-radius: 2%;
+      text-align: center;
+      font-family: 'Teko', sans-serif;
+      letter-spacing: 1.5px;
+  }
+
+  .basket-row{
+      padding: 100px;
+     
+  }
+
