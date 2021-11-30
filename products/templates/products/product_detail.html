@@ -18,33 +18,25 @@
 
     
 <div class="overlay"></div>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2"></div>
-            <div class="image-container my-5">
-                {% if product.image %}
-                            <a href="{{ product.image.url }}" target="_blank">
-                                <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                            </a>
-                            {% else %}
-                            <a href="">
-                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                            </a>
-                            {% endif %}
+
+
+
+        <div class="card product_detail_card" style="width: 18rem;">
+            {% if product.image %}
+            <a href="{{ product.image.url }}" target="_blank">
+                <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+            </a>
+            {% else %}
+            <a href="">
+                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+            </a>
+            {% endif %}
+            <div class="card-body">
+              <h5 class="card-title product_detail_product_name">{{ product.name }}</h5>
+              <p class="card-text">{{ product.description }}<a>{{ product.price }}</a></p>
+              <a href="{% url 'products' %}" class="btn btn-primary">Go Back</a>
             </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="product-details-container mb-5 mt-md-5">
-                <p class="mb-0"><b>{{ product.name }}</b></p>
-                <p class="mb-0">{{ product.price }}</p>
-                <p class="mt-3">{{ product.description }}</p>
-
-            </div> 
-
-
-        </div>
-            
-            
-        </div>
+          </div>
         
 
 {% endblock %}

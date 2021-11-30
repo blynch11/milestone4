@@ -1,14 +1,14 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import product
+from .models import Product
 
 # Create your views here.
 
 def all_products(request):
     """ all products view """
 
-    products = product.objects.all()
+    products = Product.objects.all()
     query = None
 
     if request.GET:
@@ -32,7 +32,7 @@ def all_products(request):
 def product_detail(request, product_id):
     """ individual products view """
     
-    product = get_object_or_404(product, pk=product_id)
+    product = get_object_or_404(Product, pk=product_id)
 
     context = {
         'product': product,

@@ -35,6 +35,11 @@ body{
     text-transform: capitalize;
 }
 
+.sign-up{
+    margin: 200px auto;
+    width: 40%;
+}
+
 .welcome-card{
     margin: 180px auto;
     width: 80%;
@@ -135,4 +140,20 @@ body{
       padding: 100px;
      
   }
+
+
+/*--- Product details---*/
+
+.product_detail_card{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.product_detail_product_name{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+
+}
 
