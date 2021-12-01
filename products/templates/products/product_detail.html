@@ -17,10 +17,11 @@
 {% block content %}
 
     
-<div class="overlay"></div>
+    
 
 
-
+<div class="row product_detail_row row-eq-height">
+    <div class="col">   
         <div class="card product_detail_card" style="width: 18rem;">
             {% if product.image %}
             <a href="{{ product.image.url }}" target="_blank">
@@ -33,10 +34,26 @@
             {% endif %}
             <div class="card-body">
               <h5 class="card-title product_detail_product_name">{{ product.name }}</h5>
-              <p class="card-text">{{ product.description }}<a>{{ product.price }}</a></p>
-              <a href="{% url 'products' %}" class="btn btn-primary">Go Back</a>
+              <div class="product_detail_btn">
+              
+             </div>
             </div>
           </div>
+    </div>
+    <div class="col">
+        <div class="card product_detail_card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">{{ product.name }}</h5>
+              <h5 class="card-title"> €{{ product.price }}</h6>
+              <p class="card-text">{{ product.description }}</p>
+              <div class="product-detail-btn">
+              <a href="#" class="card-link btn btn-primary">Add to Basket</a>
+              <a href="{% url 'products' %}" class="btn btn-danger ">Go Back</a>
+              </div>
+            </div>
+          </div>
+    </div> 
+ </div>
         
 
 {% endblock %}

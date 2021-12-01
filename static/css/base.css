@@ -144,16 +144,32 @@ body{
 
 /*--- Product details---*/
 
+
+.product_detail_row{
+    margin: 150px;
+    margin-right: 20%;
+    margin-left: 20%;
+    align-content: center;
+}
+
 .product_detail_card{
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 25px;
+    align-content: center;
+    font-family: 'Teko', sans-serif;
+    
 }
 
 .product_detail_product_name{
     text-align: center;
-    font-family: 'Teko', sans-serif;
+}
 
+.product-detail-btn{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.card-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
