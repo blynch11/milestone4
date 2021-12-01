@@ -50,7 +50,27 @@ def pt(request):
 def nutrition(request):
     """ Nutrition view"""
 
-    return render(request, 'products/nutrition.html')
+    products = Product.objects.all()
+    query = None
+
+    if request.GET:
+        if 'q' in request.GET:
+            query = request.GET['q']
+            if not query:
+                message.error(request, "no matches")
+                return redirect(reverse('products'))
+
+            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            products = products.filter(queries)
+
+    context = {
+        'products': products,
+        'search_term': query,
+    }
+
+    return render(request, 'products/nutrition.html', context)
+
+   
 
 
 def gymgear(request):
