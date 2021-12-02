@@ -122,6 +122,9 @@
       </nav>
     </header>
 
+   
+
+
     {% if messages %}
         <div class="message-container"></div>
     {% endif %}
@@ -130,14 +133,31 @@
     {% endblock %}
 
     {% block content %}
+   
+    
     {% endblock %}
 
     {% block postloadjs %}
     {% endblock %}
 
-  
-
-
-    
   </body>
+  <footer>
+    <div class="row pb-3">
+      <div class="col-md-12">
+         <div class="mb-5 flex-center social-footer">
+            <a href="https://www.facebook.com/" class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+            </a>
+            <a href="https://twitter.com/" class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+            </a>
+            <a href="https://www.instagram.com/" class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+            </a>
+         </div>
+      </div>
+   </div>
+  </footer>
+
+ 
 </html>
