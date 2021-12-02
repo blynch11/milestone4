@@ -18,11 +18,10 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001600425",
-        "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
-        "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
-        "price": 58.99, 
+        "name": "Loose Dumbell",
+        "description": "Our Olympic standard dumb bells are expertly designed to reduce palm friction to reduce damage to the palms.",
+        "price": 50, 
         "category": 4,
-        "rating": 4.6,
         "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
         "image": "DP0113201617034987M.jpg"
       }
@@ -32,13 +31,12 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001730010",
-        "name": "Royal Velvet Matte Satin Square 3-pc. Coverlet Set",
-        "description": "Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
-        "price": 205.99,
+        "name": "Ab Roller",
+        "description": "Achieve rock hard abs with those smooth and sturdy ab roller",
+        "price": 20,
         "category": 2,
-        "rating": 4.7,
         "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-        "image": "DP1230201417013175M.jpg"
+        "image": "ab-roller_wTf2pVs.png "
       }
     },
     {
@@ -88,13 +86,12 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002440521",
-        "name": "Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
-        "description": "Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
-        "price": 59,
+        "name": "20kg Plate",
+        "description": "Tough cast iron 20kg weight plate ",
+        "price": 60,
         "category": 4,
-        "rating": 4.4,
         "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-        "image": "DP0226201317034754M.jpg"
+        "image": "weight-plates-loose.jpg"
       }
     },
     {
@@ -131,13 +128,12 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5002820069",
-        "name": "Nike 3-pk. Performance Crew Socks - Boys",
-        "description": "Keep him moving in comfort all day with quality Nike crew socks.  arch support reinforced toe and heel cotton/polyester/spandex washable imported",
-        "price": 19.99,
+        "name": "Massage Gun",
+        "description": "The ultimate recovery tool for any gym goer.",
+        "price": 120,
         "category": 1,
-        "rating": 4.6,
         "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-        "image": "DP0510201317010521M.jpg"
+        "image": "massage-gun_sgG5qfd.jpg "
       }
     },
     {
@@ -215,13 +211,12 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5003090182",
-        "name": "Marvel Comics Avengers Hulk Pillow Buddy",
-        "description": "The Hulk may be tough, but he's actually a real softy. Get to know his softer side with this fun Hulk-shaped pillow.  adds a playful layer of texture and comfort to bed's decor measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-        "price": 59.99,
+        "name": "Dumb Bell Rack",
+        "description": "Our Dumbell rack comes with 5 different weights of dumbell. 5kg, 10kg, 12.5kg, 20kg, 25kg.",
+        "price": 350,
         "category": 2,
-        "rating": 4.8,
         "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-        "image": "DP0807201317072274M.jpg"
+        "image": "dumbel-set-rack_y95Z8FM.jpg"
       }
     },
     {
@@ -229,13 +224,12 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5003090186",
-        "name": "Marvel Spiderman Pillow Buddy",
-        "description": "Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-        "price": 60.99,
+        "name": "Kettlebell 20kg",
+        "description": "Expertly designed to comfortably fit into your hand. Smooth handle offers ultimate comfort.",
+        "price": 40,
         "category": 2,
-        "rating": 5,
         "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072924M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-        "image": "DP0807201317072924M.jpg"
+        "image": "kettle-bell_ETvPPzZ.jpg "
       }
     },
     {

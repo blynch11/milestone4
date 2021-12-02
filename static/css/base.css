@@ -63,11 +63,13 @@ body{
 
 footer{
     margin-top: 50px;
+    
 }
 
 .social-footer {
 	text-align: center;
 	color: #f65868;
+    font-size: 35px;
     
 }
 
@@ -76,11 +78,6 @@ a {
     
 }
 
-.social-footer {
-	font-size: 35px;
-    
-
-}
 
 
 

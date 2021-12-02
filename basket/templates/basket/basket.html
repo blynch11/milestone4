@@ -132,7 +132,9 @@
         <div class="row basket-row">
           <div class="col">
             {% if basket_items %}
-              <div class="table-responsive rounded"></div>
+              <div class="table-responsive rounded">
+                {{ basket_items }}
+              </div>
             {% else %}
             <p class="basket-empty-text">Your basket is empty</p>
             <a href="{% url 'home' %}" class="btn btn-danger btn-lg">Home</a>
