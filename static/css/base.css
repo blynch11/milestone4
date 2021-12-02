@@ -159,6 +159,11 @@ a {
      
   }
 
+  .basket-btn{
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+  }
+
 
 /*--- Product details---*/
 
