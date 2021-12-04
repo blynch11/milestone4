@@ -124,8 +124,6 @@ a {
     border-radius: 2%;
 }
 
-
-
 .container-bio .bio-text {
     
     position: absolute;
@@ -133,7 +131,7 @@ a {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #ffffff;
-    width: 250px;
+    width: 255px;
     padding: 20px;
     text-align: center;
     font-size: 20px;
@@ -163,7 +161,7 @@ a {
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
   }
-
+  
 
 /*--- Product details---*/
 

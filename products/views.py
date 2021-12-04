@@ -9,21 +9,19 @@ def all_products(request):
     """ all products view """
 
     products = Product.objects.all()
-    query = None
+    categories = None
 
     if request.GET:
-        if 'q' in request.GET:
-            query = request.GET['q']
-            if not query:
-                message.error(request, "no matches")
-                return redirect(reverse('products'))
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            products = products.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
-            products = products.filter(queries)
-
+    
     context = {
         'products': products,
-        'search_term': query,
+        'current_category': categories,
+        'from_gym_equipment': True,
     }
 
     return render(request, 'products/products.html', context)
@@ -51,26 +49,23 @@ def nutrition(request):
     """ Nutrition view"""
 
     products = Product.objects.all()
-    query = None
+    categories = None
 
     if request.GET:
-        if 'q' in request.GET:
-            query = request.GET['q']
-            if not query:
-                message.error(request, "no matches")
-                return redirect(reverse('products'))
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            products = products.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
-            products = products.filter(queries)
-
+    
     context = {
         'products': products,
-        'search_term': query,
+        'current_category': categories,
+        'from_nutritions': True,
     }
 
     return render(request, 'products/nutrition.html', context)
 
-   
 
 
 def gymgear(request):
