@@ -181,11 +181,14 @@
        "image":"weights.bench_kSqKwkA.png"
     },
   },
+
+  // Nutrition
+
   {
     "model":"shop.product",
     "pk":14,
     "fields":{
-       "name":"Strawberry Protein 2kg",
+       "name":"Strawberry Protein 2kg/10kg/20kg",
        "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
        "price":"20",
        "category": "nutritions",
@@ -195,37 +198,11 @@
        "image":"protein5_Jw4STMV.jpg"
     },
   }
-  {
-   "model":"shop.product",
-   "pk":14,
-   "fields":{
-      "name":"Strawberry Protein 10kg",
-      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout.",
-      "price":"50",
-      "category": "nutritions",
-      "is_nutritions":true,
-      "is_gym_wear":false,
-      "is_gym_equipment":false,
-      "image":"protein5_Jw4STMV.jpg"
-   },
- }
+  
+ 
  {
    "model":"shop.product",
-   "pk":14,
-   "fields":{
-      "name":"Strawberry Protein 20kg",
-      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
-      "price":"75",
-      "category": "nutritions",
-      "is_nutritions":true,
-      "is_gym_wear":false,
-      "is_gym_equipment":false,
-      "image":"protein5_Jw4STMV.jpg"
-   },
- }
- {
-   "model":"shop.product",
-   "pk":14,
+   "pk":15,
    "fields":{
       "name":"nutrition bars chocolate",
       "description":"10 pack of high protein nutriotional bars. Chocolate flavour",
@@ -239,7 +216,7 @@
  }
  {
    "model":"shop.product",
-   "pk":14,
+   "pk":16,
    "fields":{
       "name":"Nutrition bars peanut",
       "description":"10 pack of high protein nutriotional bars. Peanut flavour",
@@ -253,7 +230,7 @@
  }
  {
    "model":"shop.product",
-   "pk":14,
+   "pk":17,
    "fields":{
       "name":"Chocolate Protein 2kg",
       "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
@@ -265,37 +242,102 @@
       "image":"protein5_Jw4STMV.jpg"
    },
  }
+
+// gym gear
+
  {
    "model":"shop.product",
-   "pk":14,
+   "pk":18,
    "fields":{
-      "name":"Chocolate Protein 10kg",
-      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
-      "price":"50",
-      "category": "nutritions",
-      "is_nutritions":true,
-      "is_gym_wear":false,
-      "is_gym_equipment":false,
-      "image":"protein5_Jw4STMV.jpg"
+      "name":"Mens Workout Tee",
+      "description":"Ultra breatheable mens workout Tee",
+      "price":"25",
+      "category": "gym_wear",
+      "image":"workout-tee.jfif"
+   },
+ }
+
+ {
+   "model":"shop.product",
+   "pk":19,
+   "fields":{
+      "name":"Mens Longsleeve Workout Tee",
+      "description":"Ultra breatheable mens longsleeve workout Tee ",
+      "price":"30",
+      "category": "gym_wear",
+      "image":"workout-tee-longsleeve.jpg"
+   },
+ }
+
+ {
+   "model":"shop.product",
+   "pk":20,
+   "fields":{
+      "name":"Mens Windbreaker",
+      "description":"Train in all weather conditions with our PF windbreaker",
+      "price":"100",
+      "category": "gym_wear",
+      "image":"windbreaker.jpg"
+   },
+ }
+
+ {
+   "model":"shop.product",
+   "pk":21,
+   "fields":{
+      "name":"Mens Dri Fit Windbreaker",
+      "description":"Stay cool and dry in all conditions with our Dri Fit windbreaker",
+      "price":"150",
+      "category": "gym_wear",
+      "image":"windbreaker-dri.jpg"
+   },
+ }
+
+ {
+   "model":"shop.product",
+   "pk":22,
+   "fields":{
+      "name":"Mens Workout Tank Blue",
+      "description":"Our PF tank offers ultimate comfort during your workout",
+      "price":"20",
+      "category": "gym_wear",
+      "image":"workout-tank.jpg"
    },
  }
  {
    "model":"shop.product",
-   "pk":14,
+   "pk":25,
    "fields":{
-      "name":"Chocolate Protein 20kg",
-      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
-      "price":"75",
-      "category": "nutritions",
-      "is_nutritions":true,
-      "is_gym_wear":false,
-      "is_gym_equipment":false,
-      "image":"protein5_Jw4STMV.jpg"
+      "name":"Mens Workout Tank Yellow",
+      "description":"Our PF tank offers ultimate comfort during your workout",
+      "price":"20",
+      "category": "gym_wear",
+      "image":"workout-tank-yellow.jpg"
    },
  }
-  
-  
-  
+
+ {
+   "model":"shop.product",
+   "pk":23,
+   "fields":{
+      "name":"Mens Workout Shorts Blue",
+      "description":"PF workout shorts are the perfect shorts for both the gym and outdoors with cleverly designed pockets to store your device",
+      "price":"30",
+      "category": "gym_gear",
+      "image":"workoutshorts.jpg"
+   },
+ }
+ {
+   "model":"shop.product",
+   "pk":24,
+   "fields":{
+      "name":"Mens Workout Shorts Grey",
+      "description":"PF workout shorts are the perfect shorts for both the gym and outdoors with cleverly designed pockets to store your device",
+      "price":"30",
+      "category": "gym_gear",
+      "image":"workoutshortsgrey.jpg"
+   },
+ }
 
   ]
     

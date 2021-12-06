@@ -69,6 +69,22 @@ def nutrition(request):
 
 
 def gymgear(request):
-    """ Gym Gear view"""
+    """ Gym Gear View view"""
 
-    return render(request, 'products/gymgear.html')
+    products = Product.objects.all()
+    categories = None
+
+    if request.GET:
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            products = products.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
+
+    
+    context = {
+        'products': products,
+        'current_category': categories,
+        'from_nutritions': True,
+    }
+
+    return render(request, 'products/gymgear.html', context)
