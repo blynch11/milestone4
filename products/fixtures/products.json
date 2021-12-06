@@ -6,7 +6,7 @@
           "name":"Loose Dumbell",
           "description":"Our Olympic standard dumb bells are expertly designed to reduce palm friction to reduce damage to the palms.",
           "price":"50",
-          "category":1,
+          "category": "gym_equipment",
           "is_nutritions":false,
           "is_gym_wear":false,
           "is_gym_equipment":true,
@@ -185,16 +185,114 @@
     "model":"shop.product",
     "pk":14,
     "fields":{
-       "name":"Strawberry Protein",
-       "description":"Our Olympic standard dumb bells are expertly designed to reduce palm friction to reduce damage to the palms.",
-       "price":"250",
-       "category":2,
+       "name":"Strawberry Protein 2kg",
+       "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
+       "price":"20",
+       "category": "nutritions",
        "is_nutritions":true,
        "is_gym_wear":false,
        "is_gym_equipment":false,
        "image":"protein5_Jw4STMV.jpg"
     },
   }
+  {
+   "model":"shop.product",
+   "pk":14,
+   "fields":{
+      "name":"Strawberry Protein 10kg",
+      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout.",
+      "price":"50",
+      "category": "nutritions",
+      "is_nutritions":true,
+      "is_gym_wear":false,
+      "is_gym_equipment":false,
+      "image":"protein5_Jw4STMV.jpg"
+   },
+ }
+ {
+   "model":"shop.product",
+   "pk":14,
+   "fields":{
+      "name":"Strawberry Protein 20kg",
+      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
+      "price":"75",
+      "category": "nutritions",
+      "is_nutritions":true,
+      "is_gym_wear":false,
+      "is_gym_equipment":false,
+      "image":"protein5_Jw4STMV.jpg"
+   },
+ }
+ {
+   "model":"shop.product",
+   "pk":14,
+   "fields":{
+      "name":"nutrition bars chocolate",
+      "description":"10 pack of high protein nutriotional bars. Chocolate flavour",
+      "price":"25",
+      "category": "nutritions",
+      "is_nutritions":true,
+      "is_gym_wear":false,
+      "is_gym_equipment":false,
+      "image":"protein5_Jw4STMV.jpg"
+   },
+ }
+ {
+   "model":"shop.product",
+   "pk":14,
+   "fields":{
+      "name":"Nutrition bars peanut",
+      "description":"10 pack of high protein nutriotional bars. Peanut flavour",
+      "price":"25",
+      "category": "nutritions",
+      "is_nutritions":true,
+      "is_gym_wear":false,
+      "is_gym_equipment":false,
+      "image":"protein5_Jw4STMV.jpg"
+   },
+ }
+ {
+   "model":"shop.product",
+   "pk":14,
+   "fields":{
+      "name":"Chocolate Protein 2kg",
+      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
+      "price":"20",
+      "category": "nutritions",
+      "is_nutritions":true,
+      "is_gym_wear":false,
+      "is_gym_equipment":false,
+      "image":"protein5_Jw4STMV.jpg"
+   },
+ }
+ {
+   "model":"shop.product",
+   "pk":14,
+   "fields":{
+      "name":"Chocolate Protein 10kg",
+      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
+      "price":"50",
+      "category": "nutritions",
+      "is_nutritions":true,
+      "is_gym_wear":false,
+      "is_gym_equipment":false,
+      "image":"protein5_Jw4STMV.jpg"
+   },
+ }
+ {
+   "model":"shop.product",
+   "pk":14,
+   "fields":{
+      "name":"Chocolate Protein 20kg",
+      "description":"Our uniquely blended strawberry protein is a key tool in any athletes arsenal, providing enhanced muscle repair and recovery when taken pre or post workout",
+      "price":"75",
+      "category": "nutritions",
+      "is_nutritions":true,
+      "is_gym_wear":false,
+      "is_gym_equipment":false,
+      "image":"protein5_Jw4STMV.jpg"
+   },
+ }
   
   
   
