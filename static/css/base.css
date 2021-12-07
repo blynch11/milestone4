@@ -64,6 +64,7 @@ body{
 footer{
     margin-top: 50px;
     background-color: black;
+    opacity: .8;
     width: 100%;
     
 }
@@ -144,6 +145,22 @@ a {
          
 /*--- Basket---*/
   
+.basket-table-head{
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    background-color:black;
+    opacity: .7;
+    color: #f65868;;
+    border-radius: 5%;
+  }
+
+  .basket-items-text{
+    font-family: 'Teko', sans-serif;
+    font-size: large;
+
+
+  }
 
   .basket-contents{
       margin: 200px auto;
@@ -163,6 +180,15 @@ a {
   .basket-btn{
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
+  }
+
+  .btt link,
+  .update-link,
+  .remove-item{
+      cursor: pointer;
+      color: white;
+      text-transform: capitalize;
+    
   }
   
 
