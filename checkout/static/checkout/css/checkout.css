@@ -1,0 +1,9 @@
+#payment-form .form-control,
+#card-element{
+    color: black;
+    border: 1px solid #f65868;
+}
+
+.complete-order-col{
+    margin: 50px auto;
+}
