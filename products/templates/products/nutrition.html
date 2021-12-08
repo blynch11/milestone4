@@ -13,9 +13,8 @@
 <div class="overlay"></div>
 <div class="container-fluid">
     
-    
     <div class="row">
-        <div class="nutritions-container col-10 offset-1">
+        <div class="weights-container col-10 offset-1">
             
             <div class="row">
                     {% for product in products %}
@@ -29,9 +28,9 @@
                               
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ product.name }}</p>
-                                </div>
+                               
                                 
-                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                               
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
@@ -73,5 +72,4 @@
             </div>
         </div>
     </div>
-
 {% endblock %}

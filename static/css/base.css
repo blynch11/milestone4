@@ -19,19 +19,31 @@ body{
 }
 
 .power-logo{
-    color: red;
+    color: #f65868;
+}
+
+.navbar{
+    background-color: black;
+    opacity: .7;
+    
 }
 
 .nav-link{
     font-family:'Teko', sans-serif;
-    text-transform: capitalize;
     letter-spacing: 2px;
     margin:  auto 20px;
     font-size: large;
+    
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f65868;
+
 }
 
+
 .user-account-btn {
-    color: red;
+    color: #f65868;
     text-transform: capitalize;
 }
 
@@ -82,6 +94,11 @@ a {
     
 }
 
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
 
 
 
@@ -101,6 +118,19 @@ a {
 .weights-container{
     margin-top: 100px;
 }
+
+.card-body{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Teko', sans-serif;
+}
+
 
 /*--- Personal Trainer page ---*/
 
