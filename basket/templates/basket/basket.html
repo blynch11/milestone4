@@ -48,7 +48,7 @@
                                         <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price | calculate_total:item.quantity }}</p>
+                                        <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                                     </td>
                                     <td class="py-3 w-25">
                                         <form method="POST" action="{% url 'adjust_basket' item.item_id %}" class="form update-form">

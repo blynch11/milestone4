@@ -3,6 +3,6 @@ from django import template
 
 register = template.Library()
 
-@register.filter(name='calculate_total')
-def calculate_total(price, quantity):
+@register.filter(name='calc_subtotal')
+def calc_subtotal(price, quantity):
     return price * quantity
