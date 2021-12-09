@@ -1,5 +1,7 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse
 
+from products.models import Product
+
 # Create your views here.
 
 def view_basket(request):

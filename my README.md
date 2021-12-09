@@ -5,57 +5,10 @@
 - [Business Objectives](#business-objectives)
 - [User Objectives](#user-objectives)
 - [UX](#ux)
-    - [Project Strategy](#project-strategy)
-        - [Opportunities Matrix](#opportunities-matrix)
-    - [Project Scope](#project-scope)
-        - [User Demographics](#user-demographics)
-        - [User Requirements](#user-requirements)
-        - [Functional Requirements](#functional-requirements)
-        - [User Stories](#user-stories)
-        - [Constraints](#constraints)
-        - [Business Rules](#business-rules)
-        - [Key Features](#key-features)
-    - [Site Map](#site-map)
-    - [Wireframes](#wireframes)
-    - [Design Choices](#design-choices)
-        - [Fonts](#fonts)
-        - [Colours](#colours)
-- [Technologies](#technologies)
-    - [Integrated Development Environment](#integrated-development-environment)
-    - [Languages](#languages)
-    - [Database](#database)
-    - [Storage](#storage)
-    - [Payments](#payments)
-    - [Frameworks](#frameworks)
-    - [Libraries and Tools](#libraries-and-tools)
-    - [Browser Support](#browser-support)
-- [Structure](#structure)
-    - [Information Architecture](#information-architecture)
-        - [Products Models](#products-models)
-        - [Checkout Models](#checkout-models)
-        - [Profiles Models](#profiles-models)
-        - [Basket Models](#basket-models)
-    - [Features Implemented](#features-implemented)
-        - [Features Implemented in Phase 1](#features-implemented-in-phase-1)
-            - [Features Included In Base Template](#features-included-in-base-template)
-            - [Contact](#contact)
-            - [User Authentication System](#user-authentication-system)
-            - [Products](#products)
-            - [Messaging System](#messaging-system)
-            - [Basket](#basket)
-            - [Checkout](#checkout)
-            - [User Profile](#user-profile)
-        - [Features To Be Implemented In Future Development Phases](#features-to-be-implemented-in-future-development-phases)
-        - [Design Changes During The Phase 1 Development](#design-changes-during-the-phase-1-development)
-    - [Responsive Styling](#responsive-styling)
-    - [Python Code Logic](#python-code-logic)
-    - [Form Validation](#form-validation)
-    - [JavaScript Code Logic](#javascript-code-logic)
-
+- [Project goals](#project-goals)
+- [User Stories](#user-stories)
 - [Testing](#testing)
-- [Deployment](#deployment)
-- [Credits](#credits)
-- [Acknowledgements](#acknowledgements)
+
 
 ## Background ##
 During the Covid-19 Pandemic many of us were left without a place to workout, relieve stress and work on our personal fitness goals due to gym closures. To fill this void peoeple took to youtube, tv and other sources to get their workout fix. This showed people that they do not need to be in the gym to achieve their workout goals, and can instead achieve them at home, with the correct guidance and tools. Power Fitness will provide people with tailored workout plans, nutritional advice and products, home gym equipment and more.
@@ -84,61 +37,41 @@ Short interviews were carried out with potential customers.
 
 ## User Objectives ##
 * Achieve fitness goals from home
+
 ## UX ##
 
-### Project Strategy ###
 
+## User Stories ##
 
-
-
-
-
-### Project Scope ###
-#### User Demographics ####
-
-#### User Requirements ####
-*simple
-
-#### Functional Requirements ####
-In order to determine the functional requirements of the site, the following user stories have been developed.
-
-#### User Stories ####
 As a **Potential Customer**, I would like to be able to:
-* 
+* Browse the site to look for products
+* Search the site for specific products
+* read about the trainers working at PF
+* add items to a basket
+* Checkout Securely
 As a **Registered User**, I would like to be able to:
-* 
+* Sign in and view past orders
+* Checkout securely and easily using saved details
 As a **Business Owner**, I would like to be able to:
-*
-
-#### Constraints #####
-*
-
-#### Business Rules ####
-
-#### Key Features ####
+* Montior user numbers
+* Monitor sales by users
+* See which items are selling
+* make note of where products are selling most
 
 
 
-### Site Map ###
 
+## Design Choices ##
 
-<img src="media/wireframes/perkulater-site-map.svg" width="600px" style="margin: 20px;">
+I chose to use dark contrasting colours for my design. I thought they might add a string feel to the design. 
 
-### Wireframes ### 
-
-
-### Design Choices ###
-
-#### Fonts ####
+#### Fonts ##
   
 [Teko](https://fonts.google.com/specimen/Teko) 
 
 
-#### Colours ####
 
-<
 
-## Technologies ##
 
 ### Integrated Development Environment ##
 * [GitHub](https://github.com/)
@@ -153,7 +86,7 @@ As a **Business Owner**, I would like to be able to:
 * Development - [SQLite](https://docs.djangoproject.com/en/3.2/ref/databases/#sqlite-notes)
 * Deployed site - [Heroku PostgreSQL](https://www.heroku.com/postgres)
 
-### Storage ###
+
 
 ### Payments ###
 * [Stripe](https://stripe.com/docs/api) - fully integrated payments platform.
@@ -163,7 +96,6 @@ As a **Business Owner**, I would like to be able to:
 * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - to assist with responsive design.
 * [jQuery](https://jquery.com/) - to assist with JavaScript coding and DOM manipulation.
 
-### Libraries and Tools ###
 
 
 ### Browser Support ###
@@ -174,33 +106,12 @@ The following browsers are all supported by Power Fitness.
 * [Firefox]
 
 
- 
+## overall issues ##
 
-## Structure ##
-
-### Information Architecture ###
+* There was an overwhelming amount of issues in this project for me to resolve as I have ran out of time. 
 
 
 
-<img src="media/wireframes/perkulater-data-model-final.svg" width="100%" style="margin: 20px;"> 
-
-
-
-#### Products Models ####
-
-
-
-#### Checkout Models ####
-
-
-#### Profiles Models ####
-* **UserProfile** - related to **Order** and **User**. Stores default delivery information. **UserProfile** is 
-
-#### Basket Models ####
-
-### Features Implemented ###
-
-#### Features Implemented in Phase 1 ####
 
 
 
